@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#wysiwyg-editor'
+        });
+    </script>
+</head>
+<body>
+    <h1>WYSIWYG Editor</h1>
+    <textarea id="wysiwyg-editor">{{ content|safe }}</textarea>
+</body>
+</html>
