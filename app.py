@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF for PDF parsing
+import fitz 
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
